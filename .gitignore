@@ -36,9 +36,5 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 # Turbo
 .turbo
 
-# Changesets (keep config, ignore generated changesets)
-.changeset/*.md
-!.changeset/README.md
-
 # Miscellaneous
 .knowledge
