@@ -1,6 +1,6 @@
 import { BoxRenderable, type RenderContext } from "@opentui/core";
 
-import { DIALOG_Z_INDEX } from "../constants";
+import { DEFERRED_KEY, DIALOG_Z_INDEX } from "../constants";
 import type { DialogManager } from "../manager";
 import type {
   Dialog,
@@ -135,7 +135,15 @@ export class DialogContainerRenderable extends BoxRenderable {
     this._dialogRenderables.set(dialog.id, dialogRenderable);
     this.add(dialogRenderable);
 
-    this.updateTopmostStates();
+    // For deferred dialogs (React/framework JSX), skip updateTopmostStates here.
+    // The framework adapter will call it after reveal() to prevent backdrop flash.
+    const isDeferred =
+      (dialog as Dialog & { [DEFERRED_KEY]?: boolean })[DEFERRED_KEY] === true;
+
+    if (!isDeferred) {
+      this.updateTopmostStates();
+    }
+
     this.requestRender();
   }
 
@@ -145,7 +153,10 @@ export class DialogContainerRenderable extends BoxRenderable {
     return dialogs[dialogs.length - 1]?.id === dialogId;
   }
 
-  private updateTopmostStates(): void {
+  /**
+   * @internal Exposed for React adapter to call after reveal()
+   */
+  public updateTopmostStates(): void {
     const dialogs = this._manager.getDialogs();
     const topmostId =
       dialogs.length > 0 ? dialogs[dialogs.length - 1]?.id : undefined;
